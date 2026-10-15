@@ -1,0 +1,23 @@
+{
+  "id": "aviso-AAAA-NNN",
+  "titulo": "Título del aviso",
+  "slug": "titulo-del-aviso",
+  "resumen": "Una o dos frases (máximo 300 caracteres) que resuman el aviso.",
+  "categoria": "comunicado-oficial",
+  "estado": "borrador",
+  "cicloEscolar": "2026-2027",
+  "creado": "2026-01-01",
+  "autor": "Nombre de quien redacta",
+  "prioridad": "normal",
+  "cuerpo": [
+    { "tipo": "parrafo", "texto": "Texto del aviso." },
+    { "tipo": "lista", "items": ["Primer punto", "Segundo punto"] }
+  ],
+  "fechasClave": [
+    { "fecha": "2026-01-15", "descripcion": "Descripción de la fecha" }
+  ],
+  "archivos": [],
+  "autorizacionImagenes": null,
+  "seo": { "descripcion": "Descripción para buscadores (opcional)." },
+  "_ayuda": "Los archivos que comienzan con _ se ignoran. Copia este archivo como <slug>.json. Usa 'npm run editorial' para cambiar el estado."
+}

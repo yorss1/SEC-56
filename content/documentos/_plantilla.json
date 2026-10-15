@@ -1,0 +1,15 @@
+{
+  "id": "id-del-documento",
+  "nombre": "Nombre público del documento",
+  "descripcion": "Qué es y para qué sirve.",
+  "textoAccesible": "Resumen en texto de lo esencial del documento, para quien no pueda abrir el archivo.",
+  "archivo": "archivos/nombre-del-archivo.pdf",
+  "categoria": "calendario",
+  "estado": "en_revision",
+  "cicloEscolar": "2026-2027",
+  "version": "1.0",
+  "publicado": "2026-01-01",
+  "aprobador": null,
+  "contieneDatosPersonales": false,
+  "_ayuda": "Coloca el archivo en content/archivos/. Categorías: calendario, formatos, reglamentos, convocatorias, privacidad, accesibilidad. Formatos permitidos: pdf, docx, xlsx, odt, ods. Nunca publiques documentos con CURP, domicilios, calificaciones ni datos de menores."
+}

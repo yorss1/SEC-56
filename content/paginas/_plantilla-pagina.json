@@ -1,0 +1,14 @@
+{
+  "estado": "pendiente",
+  "aprobadoPor": null,
+  "aprobadoEn": null,
+  "actualizado": "2026-01-01",
+  "bloques": [
+    { "tipo": "subtitulo", "texto": "Subtítulo" },
+    { "tipo": "parrafo", "texto": "Texto aprobado por la dirección." },
+    { "tipo": "lista", "items": ["Elemento uno", "Elemento dos"] },
+    { "tipo": "enlace", "texto": "Texto del enlace", "url": "https://ejemplo.mx/" },
+    { "tipo": "documento", "id": "id-del-documento" }
+  ],
+  "_ayuda": "Guarda este archivo como content/paginas/<clave>.json (las claves están en src/lib/paginas.mjs, p. ej. conocenos-historia). Para publicar: estado 'aprobado', aprobadoPor y aprobadoEn (AAAA-MM-DD). Para trámites usa 'tramite' (ver _plantilla-tramite.json); para preguntas frecuentes usa 'preguntas'."
+}

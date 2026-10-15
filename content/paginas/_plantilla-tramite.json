@@ -1,0 +1,18 @@
+{
+  "estado": "pendiente",
+  "aprobadoPor": null,
+  "aprobadoEn": null,
+  "cicloEscolar": "2026-2027",
+  "actualizado": "2026-01-01",
+  "tramite": {
+    "dirigidoA": "A quién va dirigido el trámite",
+    "periodo": "Periodo y fecha límite confirmados por la escuela",
+    "requisitos": ["Requisito uno", "Requisito dos"],
+    "pasos": ["Paso uno", "Paso dos"],
+    "formatos": [],
+    "dondeComo": "Dónde y cómo se realiza",
+    "horarios": "Horarios confirmados",
+    "canalDudas": "Canal institucional para resolver dudas"
+  },
+  "_ayuda": "Claves de página: familias-inscripcion y familias-reinscripcion. Todos los campos de 'tramite' son obligatorios al aprobar. 'formatos' lista ids de documentos publicados en content/documentos/."
+}

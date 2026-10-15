@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "autorizacion": {
+    "otorgada": false,
+    "responsable": null,
+    "fecha": null,
+    "nota": "Cambiar a true solo cuando la dirección de la escuela autorice por escrito publicar este sitio como portal oficial. Registrar responsable y fecha (AAAA-MM-DD)."
+  },
+  "institucion": {
+    "nombre": {
+      "valor": "Escuela Secundaria Técnica No. 56 “Carlos Martínez Balmori”",
+      "estado": "confirmado_dossier",
+      "publicar": true,
+      "fuente": "Dossier §2.1; coincide en EscuelaMex, SEP Hidalgo y Normateca de Tulancingo (consulta 14-oct-2026)"
+    },
+    "nombreCorto": {
+      "valor": "Secundaria Técnica 56",
+      "estado": "confirmado_dossier",
+      "publicar": true,
+      "fuente": "Dossier §2.1 (uso corto tras presentar el nombre completo)"
+    },
+    "nivel": {
+      "valor": "Secundaria técnica pública de educación básica",
+      "estado": "confirmado_dossier",
+      "publicar": true,
+      "fuente": "Dossier §1 (directorios consultados)"
+    },
+    "municipio": {
+      "valor": "Tulancingo de Bravo",
+      "estado": "confirmado_dossier",
+      "publicar": true,
+      "fuente": "Dossier §1"
+    },
+    "entidad": {
+      "valor": "Hidalgo",
+      "estado": "confirmado_dossier",
+      "publicar": true,
+      "fuente": "Dossier §1"
+    },
+    "cct": {
+      "valor": "13DST0058M",
+      "estado": "confirmado_dossier",
+      "publicar": false,
+      "fuente": "Dossier §2.3 (EscuelaMex y registro SEP Hidalgo)",
+      "nota": "El dossier indica mostrarla en el pie de página solo si la dirección lo aprueba."
+    },
+    "turnos": {
+      "valor": "Matutino y vespertino",
+      "estado": "confirmado_dossier",
+      "publicar": false,
+      "fuente": "Dossier §2.2 (directorio de terceros)",
+      "nota": "Los horarios exactos están pendientes."
+    },
+    "direccion": {
+      "valor": "Calle Profesor Cosme Hernández Ortega s/n, Tulancingo de Bravo, Hidalgo",
+      "estado": "pendiente_validacion",
+      "publicar": false,
+      "fuente": "Dossier §2.4 (EscuelaMex, SEP Hidalgo)",
+      "nota": "Las fuentes discrepan en la colonia. No publicar ni insertar mapa hasta validarla."
+    },
+    "colonia": {
+      "valor": null,
+      "estado": "pendiente_validacion",
+      "publicar": false,
+      "candidatos": ["El Paraíso", "Lomas del Paraíso"],
+      "nota": "Dossier §2.4: las fuentes difieren."
+    },
+    "codigoPostal": {
+      "valor": null,
+      "estado": "pendiente_validacion",
+      "publicar": false,
+      "candidatos": ["43684", "43680"],
+      "nota": "Dossier §1 y §2.4: 43684 en registros consultados; un documento histórico consigna 43680."
+    },
+    "telefono": {
+      "valor": "775 755 1590",
+      "estado": "pendiente_validacion",
+      "publicar": false,
+      "fuente": "Dossier §1 (directorio)",
+      "nota": "Confirmar vigencia antes de publicar."
+    },
+    "correo": {
+      "valor": null,
+      "estado": "pendiente_validacion",
+      "publicar": false,
+      "nota": "El dossier cita un correo histórico que no debe publicarse sin confirmación; por eso no se almacena aquí. Registrar el correo institucional confirmado."
+    },
+    "horarioAtencion": { "valor": null, "estado": "pendiente_validacion", "publicar": false },
+    "horarioMatutino": { "valor": null, "estado": "pendiente_validacion", "publicar": false },
+    "horarioVespertino": { "valor": null, "estado": "pendiente_validacion", "publicar": false },
+    "fundacion": {
+      "valor": null,
+      "estado": "pendiente_validacion",
+      "publicar": false,
+      "nota": "Dossier §1: las fuentes discrepan (1992 vs. 1996). No declarar una fecha sin confirmación oficial."
+    },
+    "director": {
+      "valor": null,
+      "estado": "pendiente_validacion",
+      "publicar": false,
+      "nota": "La dirección escolar actual no está confirmada."
+    },
+    "redesSociales": {
+      "valor": [],
+      "estado": "pendiente_validacion",
+      "publicar": false,
+      "nota": "Formato: [{\"nombre\": \"Facebook\", \"url\": \"https://...\"}]. Solo cuentas confirmadas como oficiales."
+    },
+    "dominio": {
+      "valor": null,
+      "estado": "pendiente_validacion",
+      "publicar": false,
+      "nota": "No se identificó un dominio oficial. Se define con SITE_URL en la compilación."
+    },
+    "responsableContenido": {
+      "valor": null,
+      "estado": "pendiente_validacion",
+      "publicar": false,
+      "nota": "Persona o área responsable de actualizar el sitio."
+    }
+  }
+}
