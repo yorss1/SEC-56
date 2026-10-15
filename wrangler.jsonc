@@ -3,7 +3,7 @@
   // NO se probó en el entorno de desarrollo (no hay acceso a npm/wrangler). Valídalo con
   //   npx wrangler deploy --dry-run
   // antes de usarlo. Si despliegas con Cloudflare Pages, este archivo no se necesita.
-  "name": "sitio-secundaria-tecnica-56",
+  "name": "sec-56",
   "compatibility_date": "2026-10-15",
   "assets": {
     "directory": "./dist",
